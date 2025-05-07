@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    
+<body>
+<h1>Form Input Types and Attributes</h1>
+<form action="submit.html" method="POST" autocomplete="on" target="_blank" novalidate>
+
+<label>Text:</label>
+<input type="text" placeholder="Enter text" minlength="2" maxlength="20" size="30"><br><br>
+
+<label>Email:</label>
+    <input type="email" placeholder="example@mail.com" multiple><br><br>
+
+    <label>Password:</label>
+    <input type="password" minlength="6" maxlength="20"><br><br>
+
+    <label>Number (1-100):</label>
+    <input type="number" min="1" max="100"><br><br>
+
+    <label>Gender:</label>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female<br><br>
+
+<label>Upload File:</label>
+<input type="file" multiple><br><br>
+
+<label>Interests:</label>
+<input type="checkbox" name="interest" value="movies"> Movies
+<input type="checkbox" name="interest" value="music"> Music
+<input type="checkbox" name="interest" value="travel"> Travel<br>
+<input type="checkbox" name="interest" value="movies"> Watching Movies<br>
+
+
+<input type="checkbox" name="interest" value="sports"> Sports<br><br>
+
+<label>Choose a country:</label>
+<select>
+  <option value="">Select</option>
+  <option value="kenya">Kenya</option>
+  <option value="usa">USA</option>
+</select><br><br>
+
+<label>Comments:</label><br>
+<textarea rows="4" cols="50" placeholder="Your message here..." minlength="10" maxlength="200"></textarea><br><br>
+
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
